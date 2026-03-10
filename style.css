@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.container {
+    display: flex; /* Define o container como um flex container */
+    background-color: #696969;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.container .subtitle {
+    font-style: italic;
+    font-size: 25px;
+}
+
+.foto {
+    border: 2px solid black;
+}
+
+img {
+    display: block; /* Remove o espaço em branco abaixo da imagem */
+    width: 350px;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.biografia {
+    margin-top: 4px;
+    border-top: 1px solid black;
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.feitos h2, .biografia h2 {
+    text-decoration: underline;
+}
+
+dt {
+    display: inline-block;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 3px;
+    width: 50px;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+dd {
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 0px 5px 5px 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-top: -2px;
+}
+
+footer {
+    background-color: #000;
+    justify-content: center;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-left: none;
+    border-right: none; 
+    display: flex;
+        align-items: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: auto;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    margin-left: 5px;
+    background-color: #fff;
+
+}
